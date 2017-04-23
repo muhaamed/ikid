@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Navigation cutomization
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white]
+        let navBarImage:UIImage = UIImage(named: "bg_blog_navbar_reduced.jpg")!
+        UINavigationBar.appearance().setBackgroundImage(navBarImage, for: .default)
+        UINavigationBar.appearance().tintColor = UIColor.white
+        
         return true
     }
 

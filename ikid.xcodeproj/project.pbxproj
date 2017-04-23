@@ -16,6 +16,7 @@
 		93B0F7F71EAC96410037C5A4 /* ikidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B0F7F61EAC96410037C5A4 /* ikidTests.swift */; };
 		93B0F8021EAC96410037C5A4 /* ikidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B0F8011EAC96410037C5A4 /* ikidUITests.swift */; };
 		93B0F8101EAC97E20037C5A4 /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B0F80F1EAC97E20037C5A4 /* DadViewController.swift */; };
+		93B0F8121EACAD860037C5A4 /* bg_blog_navbar_reduced.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B0F8111EACAD860037C5A4 /* bg_blog_navbar_reduced.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		93B0F8011EAC96410037C5A4 /* ikidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikidUITests.swift; sourceTree = "<group>"; };
 		93B0F8031EAC96410037C5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93B0F80F1EAC97E20037C5A4 /* DadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
+		93B0F8111EACAD860037C5A4 /* bg_blog_navbar_reduced.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_blog_navbar_reduced.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		93B0F7DE1EAC96410037C5A4 /* ikid */ = {
 			isa = PBXGroup;
 			children = (
+				93B0F8111EACAD860037C5A4 /* bg_blog_navbar_reduced.jpg */,
 				93B0F7DF1EAC96410037C5A4 /* AppDelegate.swift */,
 				93B0F7E11EAC96410037C5A4 /* GoodViewController.swift */,
 				93B0F80F1EAC97E20037C5A4 /* DadViewController.swift */,
@@ -242,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93B0F7EC1EAC96410037C5A4 /* LaunchScreen.storyboard in Resources */,
+				93B0F8121EACAD860037C5A4 /* bg_blog_navbar_reduced.jpg in Resources */,
 				93B0F7E91EAC96410037C5A4 /* Assets.xcassets in Resources */,
 				93B0F7E71EAC96410037C5A4 /* Main.storyboard in Resources */,
 			);
