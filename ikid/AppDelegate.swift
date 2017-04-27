@@ -23,6 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().setBackgroundImage(navBarImage, for: .default)
         UINavigationBar.appearance().tintColor = UIColor.white
         
+        UITabBar.appearance().tintColor = UIColor.orange
+        UITabBar.appearance().barTintColor = UIColor.black
+        
+        
         return true
     }
 
