@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930F97461EB075C000478160 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930F97451EB075C000478160 /* CustomSegue.swift */; };
 		93B0F7E01EAC96410037C5A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B0F7DF1EAC96410037C5A4 /* AppDelegate.swift */; };
 		93B0F7E21EAC96410037C5A4 /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B0F7E11EAC96410037C5A4 /* GoodViewController.swift */; };
 		93B0F7E41EAC96410037C5A4 /* PunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B0F7E31EAC96410037C5A4 /* PunViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		930F97451EB075C000478160 /* CustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
 		93B0F7DC1EAC96410037C5A4 /* ikid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ikid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B0F7DF1EAC96410037C5A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93B0F7E11EAC96410037C5A4 /* GoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				93B0F7E11EAC96410037C5A4 /* GoodViewController.swift */,
 				93B0F80F1EAC97E20037C5A4 /* DadViewController.swift */,
 				93B0F7E31EAC96410037C5A4 /* PunViewController.swift */,
+				930F97451EB075C000478160 /* CustomSegue.swift */,
 				93B0F7E51EAC96410037C5A4 /* Main.storyboard */,
 				93B0F7E81EAC96410037C5A4 /* Assets.xcassets */,
 				93B0F7EA1EAC96410037C5A4 /* LaunchScreen.storyboard */,
@@ -275,6 +278,7 @@
 				93B0F7E41EAC96410037C5A4 /* PunViewController.swift in Sources */,
 				93B0F7E01EAC96410037C5A4 /* AppDelegate.swift in Sources */,
 				93B0F8101EAC97E20037C5A4 /* DadViewController.swift in Sources */,
+				930F97461EB075C000478160 /* CustomSegue.swift in Sources */,
 				93B0F7E21EAC96410037C5A4 /* GoodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +530,7 @@
 				93B0F8081EAC96410037C5A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93B0F8091EAC96410037C5A4 /* Build configuration list for PBXNativeTarget "ikidTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +539,7 @@
 				93B0F80B1EAC96410037C5A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93B0F80C1EAC96410037C5A4 /* Build configuration list for PBXNativeTarget "ikidUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +548,7 @@
 				93B0F80E1EAC96410037C5A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
